@@ -1,0 +1,16 @@
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Tarefas</th>
+      <th scope="col">Compras</th>
+      <th scope="col">Outras</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let key of keys; trackBy: id">
+      <td>{{ id.name }}</td>
+      <td>{{ id.status }}</td>
+    </tr>
+    <tr>
+  </tbody>
+</table>
